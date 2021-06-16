@@ -1,0 +1,39 @@
+.page-1 {
+	display: inline;
+	text-align: right;
+	float: right;
+}
+
+.page-2 {
+	text-align: left;
+}
+
+.text {
+	text-align: left;
+}
+
+.img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+:root {
+	--title-green: green;
+	--schedule-time: white;
+	--fly-schedule: white;
+	--time: red;
+	--destination: rgb(107, 70, 70);
+	--depature: rgb(107, 70, 70);
+	--blue-text: lightblue;
+}
+
+.title {
+	color: var(--title-green);
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+}
